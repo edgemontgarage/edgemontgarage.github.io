@@ -103,6 +103,34 @@
       section { padding: 58px 0; }
     }
     @media (max-width: 480px) { .cards { grid-template-columns: 1fr; } .wrap { width: min(100% - 30px, 1120px); } }
+
+    
+.contact-box input,
+.contact-box select,
+.contact-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.contact-box textarea {
+  resize: vertical;
+}
+
+.contact-box form .contact-item {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.contact-box form button {
+  cursor: pointer;
+  border: none;
+}
+
   </style>
 </head>
 <body>
