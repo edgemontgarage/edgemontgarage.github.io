@@ -126,9 +126,31 @@
   margin-bottom: 16px;
 }
 
+/* Send Message Button */
 .contact-box form button {
-  cursor: pointer;
+  width: 100%;
+  padding: 15px 24px;
+  margin-top: 8px;
+  background: linear-gradient(135deg, #2186d1, #0d4778);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
   border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(23, 105, 170, 0.3);
+  transition: all 0.3s ease;
+}
+
+.contact-box form button:hover {
+  background: linear-gradient(135deg, #329be8, #1769aa);
+  box-shadow: 0 8px 20px rgba(23, 105, 170, 0.45);
+  transform: translateY(-2px);
+}
+
+.contact-box form button:active {
+  transform: translateY(0);
 }
 
   </style>
