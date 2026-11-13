@@ -194,7 +194,60 @@
             <h3>Service area</h3>
             <div class="contact-item"><strong>Edmonton, Alberta</strong>Serving Edmonton and nearby areas by arrangement.</div>
             <div class="contact-item"><strong>Appointments</strong>Contact us first to confirm service availability and arrangements.</div>
-            <a class="btn btn-primary" href="sms:+18259751932">Text Edgemont Garage</a>
+            
+<form action="https://formspree.io/f/xzerdvgq" method="POST">
+
+  <label for="name">Your Name</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your name"
+    required
+  >
+
+  <label for="email">Your Email</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Enter your email"
+    required
+  >
+
+  <label for="phone">Phone Number</label>
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    placeholder="Enter your phone number"
+  >
+
+  <label for="service">Service Needed</label>
+  <select id="service" name="service" required>
+    <option value="">Choose a service</option>
+    <option value="Tire Mounting">Tire Mounting</option>
+    <option value="Wheel Balancing">Wheel Balancing</option>
+    <option value="Tire Swap">Tire Swap</option>
+    <option value="Oil Change">Oil Change</option>
+    <option value="Brake Service">Brake Service</option>
+    <option value="Suspension">Suspension</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="message">Your Message</label>
+  <textarea
+    id="message"
+    name="message"
+    rows="5"
+    placeholder="How can we help you?"
+    required
+  ></textarea>
+
+  <button type="submit">Send Message</button>
+
+</form>
+
           </div>
         </div>
       </div>
